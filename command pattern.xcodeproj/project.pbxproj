@@ -31,6 +31,7 @@
 		C8F0128F167A0930007220D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C8F01292167A0931007220D0 /* command pattern-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "command pattern-Prefix.pch"; sourceTree = "<group>"; };
 		C8F01293167A0931007220D0 /* command_pattern.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = command_pattern.1; sourceTree = "<group>"; };
+		C8F0129A167A0951007220D0 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +49,7 @@
 		C8F0127D167A0930007220D0 = {
 			isa = PBXGroup;
 			children = (
+				C8F0129A167A0951007220D0 /* README.md */,
 				C8F0128E167A0930007220D0 /* command pattern */,
 				C8F0128B167A0930007220D0 /* Frameworks */,
 				C8F01289167A0930007220D0 /* Products */,
