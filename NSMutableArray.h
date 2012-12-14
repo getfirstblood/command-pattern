@@ -1,5 +1,5 @@
 //
-//  SynCondition.h
+//  NSMutableArray.h
 //  command pattern
 //
 //  Created by gaoweiwei on 12-12-14.
@@ -8,10 +8,7 @@
 
 #import <Foundation/Foundation.h>
 
-@interface SynCondition : NSCondition
-{
-    
-}
-+ (SynCondition *)shareInstance1;
-+ (SynCondition *)shareInstance2;
+@interface NSMutableArray (QueueAddition)
+- (void)push:(id)obj;
+- (id)pop;
 @end

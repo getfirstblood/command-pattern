@@ -9,8 +9,6 @@
 #import "SynCondition.h"
 static volatile SynCondition *threadCondition;
 static volatile SynCondition *commandCondition;
-static int numThread;
-static int numCommand;
 @implementation SynCondition
 + (volatile SynCondition *)shareInstance1
 {
@@ -39,13 +37,5 @@ static int numCommand;
         }
     }
     return commandCondition;
-}
-+ (int)getNum2
-{
-    return numCommand;
-}
-+ (int)getNum1
-{
-    return numThread;
 }
 @end
