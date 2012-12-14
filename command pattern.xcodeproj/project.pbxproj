@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C8C19FD8167AD19200EC539D /* Command.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C19FD7167AD19200EC539D /* Command.m */; };
+		C8C19FDC167AD1D400EC539D /* Acommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C19FDB167AD1D400EC539D /* Acommand.m */; };
+		C8C19FDF167AD1ED00EC539D /* AFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C19FDE167AD1ED00EC539D /* AFunction.m */; };
+		C8C19FE2167AD3D100EC539D /* Bcommand.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C19FE1167AD3D100EC539D /* Bcommand.m */; };
+		C8C19FE5167AD40400EC539D /* BFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C19FE4167AD40400EC539D /* BFunction.m */; };
+		C8C19FE8167AD55500EC539D /* SynCondition.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C19FE7167AD55500EC539D /* SynCondition.m */; };
+		C8C19FF1167AF7A900EC539D /* CommandOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = C8C19FF0167AF7A900EC539D /* CommandOperation.m */; };
 		C8F0128D167A0930007220D0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C8F0128C167A0930007220D0 /* Foundation.framework */; };
 		C8F01290167A0930007220D0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C8F0128F167A0930007220D0 /* main.m */; };
 		C8F01294167A0931007220D0 /* command_pattern.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C8F01293167A0931007220D0 /* command_pattern.1 */; };
@@ -26,6 +33,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		C8C19FD6167AD19200EC539D /* Command.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Command.h; sourceTree = "<group>"; };
+		C8C19FD7167AD19200EC539D /* Command.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Command.m; sourceTree = "<group>"; };
+		C8C19FDA167AD1D400EC539D /* Acommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Acommand.h; sourceTree = "<group>"; };
+		C8C19FDB167AD1D400EC539D /* Acommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Acommand.m; sourceTree = "<group>"; };
+		C8C19FDD167AD1ED00EC539D /* AFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFunction.h; sourceTree = "<group>"; };
+		C8C19FDE167AD1ED00EC539D /* AFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFunction.m; sourceTree = "<group>"; };
+		C8C19FE0167AD3D100EC539D /* Bcommand.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Bcommand.h; sourceTree = "<group>"; };
+		C8C19FE1167AD3D100EC539D /* Bcommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bcommand.m; sourceTree = "<group>"; };
+		C8C19FE3167AD40400EC539D /* BFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFunction.h; sourceTree = "<group>"; };
+		C8C19FE4167AD40400EC539D /* BFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFunction.m; sourceTree = "<group>"; };
+		C8C19FE6167AD55500EC539D /* SynCondition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynCondition.h; sourceTree = "<group>"; };
+		C8C19FE7167AD55500EC539D /* SynCondition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SynCondition.m; sourceTree = "<group>"; };
+		C8C19FEF167AF7A900EC539D /* CommandOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandOperation.h; sourceTree = "<group>"; };
+		C8C19FF0167AF7A900EC539D /* CommandOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandOperation.m; sourceTree = "<group>"; };
 		C8F01288167A0930007220D0 /* command pattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "command pattern"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8F0128C167A0930007220D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C8F0128F167A0930007220D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -49,6 +70,10 @@
 		C8F0127D167A0930007220D0 = {
 			isa = PBXGroup;
 			children = (
+				C8C19FEF167AF7A900EC539D /* CommandOperation.h */,
+				C8C19FF0167AF7A900EC539D /* CommandOperation.m */,
+				C8C19FE6167AD55500EC539D /* SynCondition.h */,
+				C8C19FE7167AD55500EC539D /* SynCondition.m */,
 				C8F0129A167A0951007220D0 /* README.md */,
 				C8F0128E167A0930007220D0 /* command pattern */,
 				C8F0128B167A0930007220D0 /* Frameworks */,
@@ -78,6 +103,16 @@
 				C8F0128F167A0930007220D0 /* main.m */,
 				C8F01293167A0931007220D0 /* command_pattern.1 */,
 				C8F01291167A0930007220D0 /* Supporting Files */,
+				C8C19FD6167AD19200EC539D /* Command.h */,
+				C8C19FD7167AD19200EC539D /* Command.m */,
+				C8C19FDA167AD1D400EC539D /* Acommand.h */,
+				C8C19FDB167AD1D400EC539D /* Acommand.m */,
+				C8C19FDD167AD1ED00EC539D /* AFunction.h */,
+				C8C19FDE167AD1ED00EC539D /* AFunction.m */,
+				C8C19FE0167AD3D100EC539D /* Bcommand.h */,
+				C8C19FE1167AD3D100EC539D /* Bcommand.m */,
+				C8C19FE3167AD40400EC539D /* BFunction.h */,
+				C8C19FE4167AD40400EC539D /* BFunction.m */,
 			);
 			path = "command pattern";
 			sourceTree = "<group>";
@@ -142,6 +177,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				C8F01290167A0930007220D0 /* main.m in Sources */,
+				C8C19FD8167AD19200EC539D /* Command.m in Sources */,
+				C8C19FDC167AD1D400EC539D /* Acommand.m in Sources */,
+				C8C19FDF167AD1ED00EC539D /* AFunction.m in Sources */,
+				C8C19FE2167AD3D100EC539D /* Bcommand.m in Sources */,
+				C8C19FE5167AD40400EC539D /* BFunction.m in Sources */,
+				C8C19FE8167AD55500EC539D /* SynCondition.m in Sources */,
+				C8C19FF1167AF7A900EC539D /* CommandOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -236,6 +278,7 @@
 				C8F01299167A0931007220D0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
