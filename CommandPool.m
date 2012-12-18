@@ -70,4 +70,9 @@
     [condition1 unlock];
     return a;
 }
+- (void)dealloc
+{
+    [commandArray release];
+    [super dealloc];
+}
 @end

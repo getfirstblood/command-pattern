@@ -18,4 +18,10 @@
         [cmd excute];
     }
 }
+- (void)dealloc
+{
+    [commandpool release];
+    [cmd release];
+    [super dealloc];
+}
 @end

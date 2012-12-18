@@ -47,18 +47,18 @@
 		C8C19FE1167AD3D100EC539D /* Bcommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Bcommand.m; sourceTree = "<group>"; };
 		C8C19FE3167AD40400EC539D /* BFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BFunction.h; sourceTree = "<group>"; };
 		C8C19FE4167AD40400EC539D /* BFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BFunction.m; sourceTree = "<group>"; };
-		C8C19FE6167AD55500EC539D /* SynCondition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SynCondition.h; sourceTree = "<group>"; };
-		C8C19FE7167AD55500EC539D /* SynCondition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SynCondition.m; sourceTree = "<group>"; };
-		C8C19FEF167AF7A900EC539D /* CommandOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandOperation.h; sourceTree = "<group>"; };
-		C8C19FF0167AF7A900EC539D /* CommandOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandOperation.m; sourceTree = "<group>"; };
-		C8C19FF2167AFC7C00EC539D /* NSMutableArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSMutableArray.h; sourceTree = "<group>"; };
-		C8C19FF3167AFC7C00EC539D /* NSMutableArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSMutableArray.m; sourceTree = "<group>"; };
-		C8C19FF5167AFF4000EC539D /* CommandPool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommandPool.h; sourceTree = "<group>"; };
-		C8C19FF6167AFF4000EC539D /* CommandPool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CommandPool.m; sourceTree = "<group>"; };
-		C8C19FF8167B0DAD00EC539D /* CustomerOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomerOperation.h; sourceTree = "<group>"; };
-		C8C19FF9167B0DAD00EC539D /* CustomerOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomerOperation.m; sourceTree = "<group>"; };
-		C8C19FFB167B0DD300EC539D /* ProductOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProductOperation.h; sourceTree = "<group>"; };
-		C8C19FFC167B0DD300EC539D /* ProductOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProductOperation.m; sourceTree = "<group>"; };
+		C8C19FE6167AD55500EC539D /* SynCondition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = SynCondition.h; path = ../SynCondition.h; sourceTree = "<group>"; };
+		C8C19FE7167AD55500EC539D /* SynCondition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = SynCondition.m; path = ../SynCondition.m; sourceTree = "<group>"; };
+		C8C19FEF167AF7A900EC539D /* CommandOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommandOperation.h; path = ../CommandOperation.h; sourceTree = "<group>"; };
+		C8C19FF0167AF7A900EC539D /* CommandOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommandOperation.m; path = ../CommandOperation.m; sourceTree = "<group>"; };
+		C8C19FF2167AFC7C00EC539D /* NSMutableArray.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = NSMutableArray.h; path = ../NSMutableArray.h; sourceTree = "<group>"; };
+		C8C19FF3167AFC7C00EC539D /* NSMutableArray.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = NSMutableArray.m; path = ../NSMutableArray.m; sourceTree = "<group>"; };
+		C8C19FF5167AFF4000EC539D /* CommandPool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CommandPool.h; path = ../CommandPool.h; sourceTree = "<group>"; };
+		C8C19FF6167AFF4000EC539D /* CommandPool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CommandPool.m; path = ../CommandPool.m; sourceTree = "<group>"; };
+		C8C19FF8167B0DAD00EC539D /* CustomerOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CustomerOperation.h; path = ../CustomerOperation.h; sourceTree = "<group>"; };
+		C8C19FF9167B0DAD00EC539D /* CustomerOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CustomerOperation.m; path = ../CustomerOperation.m; sourceTree = "<group>"; };
+		C8C19FFB167B0DD300EC539D /* ProductOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ProductOperation.h; path = ../ProductOperation.h; sourceTree = "<group>"; };
+		C8C19FFC167B0DD300EC539D /* ProductOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ProductOperation.m; path = ../ProductOperation.m; sourceTree = "<group>"; };
 		C8F01288167A0930007220D0 /* command pattern */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "command pattern"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8F0128C167A0930007220D0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		C8F0128F167A0930007220D0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -82,18 +82,6 @@
 		C8F0127D167A0930007220D0 = {
 			isa = PBXGroup;
 			children = (
-				C8C19FFB167B0DD300EC539D /* ProductOperation.h */,
-				C8C19FFC167B0DD300EC539D /* ProductOperation.m */,
-				C8C19FF8167B0DAD00EC539D /* CustomerOperation.h */,
-				C8C19FF9167B0DAD00EC539D /* CustomerOperation.m */,
-				C8C19FF5167AFF4000EC539D /* CommandPool.h */,
-				C8C19FF6167AFF4000EC539D /* CommandPool.m */,
-				C8C19FF2167AFC7C00EC539D /* NSMutableArray.h */,
-				C8C19FF3167AFC7C00EC539D /* NSMutableArray.m */,
-				C8C19FEF167AF7A900EC539D /* CommandOperation.h */,
-				C8C19FF0167AF7A900EC539D /* CommandOperation.m */,
-				C8C19FE6167AD55500EC539D /* SynCondition.h */,
-				C8C19FE7167AD55500EC539D /* SynCondition.m */,
 				C8F0129A167A0951007220D0 /* README.md */,
 				C8F0128E167A0930007220D0 /* command pattern */,
 				C8F0128B167A0930007220D0 /* Frameworks */,
@@ -120,6 +108,18 @@
 		C8F0128E167A0930007220D0 /* command pattern */ = {
 			isa = PBXGroup;
 			children = (
+				C8C19FFB167B0DD300EC539D /* ProductOperation.h */,
+				C8C19FFC167B0DD300EC539D /* ProductOperation.m */,
+				C8C19FF8167B0DAD00EC539D /* CustomerOperation.h */,
+				C8C19FF9167B0DAD00EC539D /* CustomerOperation.m */,
+				C8C19FF5167AFF4000EC539D /* CommandPool.h */,
+				C8C19FF6167AFF4000EC539D /* CommandPool.m */,
+				C8C19FF2167AFC7C00EC539D /* NSMutableArray.h */,
+				C8C19FF3167AFC7C00EC539D /* NSMutableArray.m */,
+				C8C19FEF167AF7A900EC539D /* CommandOperation.h */,
+				C8C19FF0167AF7A900EC539D /* CommandOperation.m */,
+				C8C19FE6167AD55500EC539D /* SynCondition.h */,
+				C8C19FE7167AD55500EC539D /* SynCondition.m */,
 				C8F0128F167A0930007220D0 /* main.m */,
 				C8F01293167A0931007220D0 /* command_pattern.1 */,
 				C8F01291167A0930007220D0 /* Supporting Files */,

@@ -8,6 +8,9 @@
 
 #import "Command.h"
 #import "BFunction.h"
+/**
+ *@brief B命令
+ */
 @interface Bcommand : Command
 {
     BFunction *func;

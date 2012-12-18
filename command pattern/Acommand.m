@@ -15,4 +15,9 @@
     [func operation1];
     [func operation2];
 }
+- (void)dealloc
+{
+    [func release];
+    [super dealloc];
+}
 @end

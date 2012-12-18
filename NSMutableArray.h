@@ -7,7 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-
+/**
+ *@brief 可变数组的扩充功能，封装一个队列的功能，且线程安全
+ */
 @interface NSMutableArray (QueueAddition)
 - (void)push:(id)obj;
 - (id)pop;

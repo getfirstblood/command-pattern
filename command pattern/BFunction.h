@@ -7,7 +7,9 @@
 //
 
 #import <Foundation/Foundation.h>
-
+/**
+ *@brief A功能类
+ */
 @interface BFunction : NSObject
 - (void)operation1;
 - (void)operation2;

@@ -10,6 +10,9 @@
 
 @implementation ProductOperation
 @synthesize commandpool;
+/**
+ * @brief 
+ */
 - (void)main
 {
     //生产
@@ -23,5 +26,10 @@
         [self.commandpool push:acom];
         [self.commandpool push:bcom];
     }
+}
+- (void)dealloc
+{
+    [commandpool release];
+    [super dealloc];
 }
 @end
